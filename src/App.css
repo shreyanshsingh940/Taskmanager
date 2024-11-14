@@ -1,0 +1,56 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.add-task input, .add-task textarea, .add-task select, .add-task button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color:#121212;
+  color:white ;
+}
+
+.priority {
+  font-weight: bold;
+}
+
+.priority.Low {
+  color: whitesmoke;
+}
+
+.priority.Medium {
+  color: whitesmoke;
+}
+
+.priority.High {
+  color: whitesmoke;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters input, .filters select {
+  width: 80%;
+  margin-right: 2%;
+  padding: 5px;
+}
+
+.filters input {
+  margin-right: 0;
+}
